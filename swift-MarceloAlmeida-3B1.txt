@@ -1,0 +1,48 @@
+Atividade Operadores e Condicionais:
+
+1-> Descreva a diferença entre um if e o guard no Swift.
+R: guard é usado para fornecer retorno antecipado sem a necessidade de aninhamento do restante da função. 
+if  aninha seu escopo e não exige nada de especial,Pode return ou não.
+____________________________________________________________________________________________________________
+2-> Escreva uma função que lança dados, ela não recebe nenhum parâmetro, mas
+retorna os números lançados usando apenas uma variável, (Retorna dois valores
+utilizando apenas uma variável)
+R:  func Numeros(){ 
+    let Nome:String = "Marcelo"
+    let Sobrenome:String = "Almeida"
+    let nomeCompleto:String = ""
+    return nomeCompleto = (Nome + Sobrenome )
+____________________________________________________________________________________________________________
+3-> Reescreva o seguinte código utilizando o guard:
+ func Aluno() {
+
+    let login:String = "user"
+    let senha:int = "senha"
+
+    guard let login = login else { return }
+    guard let senha = senha else { return }
+    
+    print(nome)
+    print(nota)
+    
+}
+____________________________________________________________________________________________________________
+4-> Escreva um algoritmo que trate os prováveis retornos de uma chamada HTTP
+(de 200 até 500), trate o resultado de cada range e informe uma mensagem
+relativa para cada.
+
+
+func Numeros() {
+
+   
+    let numero1:int = 200
+    let numero2:int = 500
+
+    print(numero1 ++ numero2)
+   
+    
+}
+
+
+
+
