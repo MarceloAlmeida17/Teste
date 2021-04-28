@@ -1,0 +1,92 @@
+Atividades Swift - Marcelo Moreira MamedeDe Almeida - 3B1
+-------------------------------------------------------------
+(Atividade 1)
+
+var x = 2 
+var y = 0 
+var result = 1 
+func fatorar(_ numero1: Int){
+  var numero1 = numero1
+
+  while numero1 > 1 {
+    if numero1 % x == 0 {
+      numero1 = numero1 / x
+      y = y + 1 
+    } else {
+      x = x + 1
+    }
+  }
+  while y > 0 {
+      result = result * 2
+      y = y - 1
+  }
+  print(result)
+}
+fatorar(7777)
+-------------------------------------------------------------
+(Atividade 2)
+
+func media(_ num: Int){
+    var condic = true
+    if (num > 0){
+        condic = true
+    } else {
+        condic = false
+    }
+    print(condic)
+}
+media(-55)
+-------------------------------------------------------------
+(Atividade3)
+
+var elementos: String = "vazio";
+func notaUsuario(_ nota: Double){
+    if nota <= 4.9 {
+       elementos = "D"
+    }else if nota <= 6.9{
+      elementos = "C"
+    }else if nota <= 8.9{
+       elementos = "B"
+    }else{
+       elementos = "A"
+    }
+    print(conc)
+}
+notaUsuario(5.5)
+-------------------------------------------------------------
+(Atividade4)
+
+var a: Int = 0
+func returnArray(_ array: Array<Int>){
+    for item in array {
+        a = a + item
+    }
+    print(a)
+}
+retornaArray([5,15,25,35,45,55])
+-------------------------------------------------------------
+(Atividade5)
+
+let numeros: Array<Int> = [5,15,25,35,45,55,65,75,85]
+func multiplicacaoArray(_ quant: Int){
+  var newArray: Array<Int> = []
+  for item in numeros {
+    newArray.append(item * quant)
+  }
+
+  print(newArray)
+}
+multiplicacaoArray(5)
+
+-------------------------------------------------------------
+(Atividade6)
+
+func numero(_ quantia: Int){
+    var quantia = quantia
+    while quantia / 2 > 1 {
+    quantia = quantia / 2
+    print(quantia)
+    }   
+}
+numero(10)
+
